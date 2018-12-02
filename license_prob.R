@@ -1,7 +1,7 @@
 # Probability of getting 4 or more
 # cannabis licenses in SK
 
-c.data <- read.csv("~/Dropbox/website_projects/sask_cannabis/sk_cannabis_data.csv",
+c.data <- read.csv("~/Documents/repositories/sask_cannabis/sk_cannabis_data.csv",
                    row.names = 1)
 n <- NROW(c.data)
 
@@ -35,7 +35,7 @@ ggplot(data=p.df, aes(Permit)) + geom_histogram() +
     theme(axis.text=element_text(size=14),
           axis.title=element_text(size=14,face="bold")) +
     labs(x="Number of permits obtained")
-ggsave(filename = "~/Dropbox/website_projects/sask_cannabis/plots/permit_hist.png", device="png")
+ggsave(filename = "~/Documents/repositories/sask_cannabis/permit_hist.png", device="png")
 
 
 # Calculating probability of 4 or more permits if you can obtain 
