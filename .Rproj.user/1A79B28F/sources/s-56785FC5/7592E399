@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543691123965.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7592E399",
+    "lastKnownWriteTime" : 1543770921,
+    "last_content_update" : 1543770921236,
+    "path" : "~/Documents/repositories/sask_cannabis/license_prob.R",
+    "project_path" : "license_prob.R",
+    "properties" : {
+        "cursorPosition" : "47,42",
+        "scrollLine" : "38",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
